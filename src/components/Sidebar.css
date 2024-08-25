@@ -1,0 +1,105 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    width: 300px;
+    background-color: #fff;
+    border-right: 1px solid #e9ecef;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar__header {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar__header h2 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar__actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar__action-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .sidebar__search {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  .sidebar__projects {
+    flex-grow: 1;
+  }
+  
+  .sidebar__projects h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .sidebar__project {
+    background-color: #f8f9fa;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar__project h4 {
+    font-size: 1rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar__project p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .sidebar__project-status {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .sidebar__project-status.approved {
+    color: green;
+  }
+  
+  .sidebar__project-status.in-progress {
+    color: orange;
+  }
+  
+  .sidebar__footer {
+    padding-top: 1rem;
+    border-top: 1px solid #e9ecef;
+    margin-top: auto;
+  }
+  
+  .sidebar__footer-btn {
+    background-color: #f8f9fa;
+    color: #007bff;
+    border: 1px solid #ced4da;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  

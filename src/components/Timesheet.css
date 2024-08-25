@@ -1,0 +1,133 @@
+/* src/components/Timesheet.css */
+
+.timesheet {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .timesheet__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .timesheet__header h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .timesheet__summary {
+    font-size: 1rem;
+    color: #666;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .timesheet__grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .timesheet__day {
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timesheet__date {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timesheet__input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+  }
+  
+  .timesheet__footer {
+    margin-top: 1rem;
+    text-align: right;
+  }
+  
+  .timesheet__submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  .timesheet {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Dark Mode */
+  body.dark .timesheet {
+    background-color: #444;
+    color: #f0f2f5;
+  }
+
+
+  /* src/components/Timesheet.css */
+
+.timesheet {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timesheet__summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .timesheet__summary div {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .timesheet__summary div:nth-child(2) {
+    background-color: #d4edda;
+  }
+  
+  .timesheet__summary div:nth-child(3) {
+    background-color: #f8d7da;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
